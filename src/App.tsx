@@ -1,10 +1,12 @@
 import React from 'react';
+// Já aponta para o arquivo index.tsx da pasta
+import Routes from './pages/routes';
+
+import './assets/styles/global.css'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <Routes />
   );
 }
 
